@@ -1,0 +1,98 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/include",
+                "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/src",
+                "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/lib/VirtualWire",
+                "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/lib/TinyDHT",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/variants/digispark",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Adafruit_NeoPixel",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/ArduinoWiiClassicController",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkCDC",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkJoystick",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkKeyboard",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkLCD",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkMouse",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkOLED",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkRGB",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkRcSeq",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSimpleServo",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSoftRcPulseIn",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSoftRcPulseOut",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSoftSerial",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkTinyPinChange",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkTinySoftPwm",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkUSB",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Digispark_Examples",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/EEPROM/src",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/NewExamples",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Nunchuk",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/OneWire",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/TinyWireM",
+                "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/include",
+                    "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/src",
+                    "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/lib/VirtualWire",
+                    "/home/paulo/Documentos/workspace/pessoal/monitor-umidade-solo/sensor-umidade-solo/lib/TinyDHT",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/variants/digispark",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Adafruit_NeoPixel",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/ArduinoWiiClassicController",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkCDC",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkJoystick",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkKeyboard",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkLCD",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkMouse",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkOLED",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkRGB",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkRcSeq",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSimpleServo",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSoftRcPulseIn",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSoftRcPulseOut",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkSoftSerial",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkTinyPinChange",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkTinySoftPwm",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/DigisparkUSB",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Digispark_Examples",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/EEPROM/src",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/NewExamples",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Nunchuk",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/OneWire",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/TinyWireM",
+                    "/home/paulo/.platformio/packages/framework-arduino-avr-digistump/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_AVR_DIGISPARK",
+                "F_CPU=16500000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATtiny85__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/paulo/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=attiny85",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
